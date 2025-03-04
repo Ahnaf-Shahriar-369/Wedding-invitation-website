@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import "tailwindcss";
+
+
+
+.corinthia-regular {
+  font-family: "Corinthia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corinthia-bold {
+  font-family: "Corinthia", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Custom styles */
+body {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Corinthia', cursive;
+    background-color: #f7f7f7; */
+}
