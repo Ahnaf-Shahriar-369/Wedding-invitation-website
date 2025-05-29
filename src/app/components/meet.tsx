@@ -45,7 +45,7 @@ export default function HappyCouple({
     socialLinks: {
       instagram: "https://www.instagram.com/",
       twitter: "https://x.com/home?lang=en",
-      facebook: "https://www.facebook.com/",
+      facebook: "https://www.facebook.com/" ,
     },
   },
 }: Partial<HappyCoupleProps> = {}) {
@@ -107,12 +107,14 @@ export default function HappyCouple({
 
         <div className="flex space-x-2 mt-2">
           {socialLinks.instagram && (
-            <a href={socialLinks.instagram} style={{ color: colors.deepMagenta }} className="hover:opacity-80">
+            <a target="_blank" href={socialLinks.instagram} style={{ color: colors.deepMagenta }} className="hover:opacity-80 ">
               <Instagram size={16} />
+
+              
             </a>
           )}
           {socialLinks.twitter && (
-            <a href={socialLinks.twitter} style={{ color: colors.deepMagenta }} className="hover:opacity-80">
+            <a  href={socialLinks.twitter} style={{ color: colors.deepMagenta }} className="hover:opacity-80">
               <Twitter size={16} />
             </a>
           )}

@@ -58,7 +58,7 @@ export default function Hero1() {
           {/* Date */}
           <div className="flex items-center justify-center space-x-2 sm:space-x-3">
             <span className="w-1 h-1 rounded-full bg-white"></span>
-            <p className="text-sm sm:text-base md:text-lg tracking-widest">05 03 2025</p>
+            <p className="text-sm sm:text-base md:text-lg tracking-widest">10 03 2025</p>
             <span className="w-1 h-1 rounded-full bg-white"></span>
           </div>
         </div>
