@@ -16,8 +16,9 @@ interface TimeLeft {
   seconds: number
 }
 
+// Make initialTime optional and provide a default value
 interface CountdownTimerProps {
-  initialTime: TimeLeft
+  initialTime?: TimeLeft
 }
 
 export default function CountDownTimer({
@@ -112,9 +113,3 @@ export default function CountDownTimer({
     </div>
   )
 }
-
-
-
-
-
-
